@@ -1,0 +1,17 @@
+config:
+  target: 'http://127.0.0.1:90' 
+  phases:
+    - duration: 10 
+      arrivalRate: 1500
+      rampTo: 1500
+  defaults:
+    http:
+    headers:
+      Content-Type: application/json
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijc1NjA3ZWYzLTM5OGMtNDg0NS04NzMxLTUwOGViZjcwZjZlZSIsInVzZXJuYW1lIjoiZmFyeGFkIiwiaWF0IjoxNzMwMjg5MDIyLCJleHAiOjE3MzAyOTI2MjJ9.MNmrPf6zHCtOpDVZBIoYqf2-Z1j99SgfH0AmXJf0L64'
+    socket:
+      bind: 0
+scenarios:
+  - flow:
+      - get:
+          url: "/currency"
