@@ -1,22 +1,15 @@
 
 # Project Setup
 
-## 1. Run Migrations
-
-Generate and run migrations:
-```bash
-npm run typeorm:generate
-npm run typeorm:run
-```
-
-## 2. Start Docker Services
+## 1. Start Docker Services
 
 Start services with Docker:
 ```bash
 docker compose up -d
 ```
+⚠ Warning: Docker may occasionally encounter issues depending on the system it is running on. If you experience errors when starting the docker-compose file, please try running the command again.
 
-## 3. Nginx
+## 2. Nginx
 
 The application is accessible through Nginx on port 90.
 
