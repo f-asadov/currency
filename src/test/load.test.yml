@@ -8,7 +8,7 @@ config:
     http:
     headers:
       Content-Type: application/json
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijc1NjA3ZWYzLTM5OGMtNDg0NS04NzMxLTUwOGViZjcwZjZlZSIsInVzZXJuYW1lIjoiZmFyeGFkIiwiaWF0IjoxNzMwMjg5MDIyLCJleHAiOjE3MzAyOTI2MjJ9.MNmrPf6zHCtOpDVZBIoYqf2-Z1j99SgfH0AmXJf0L64'
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU0ZTRhYjgyLTI2ZjgtNDYwZi1iZmUyLTlhNWUwNGJmZTlkZSIsInVzZXJuYW1lIjoiZmFyeGFkIiwiaWF0IjoxNzMwODM1MjgzLCJleHAiOjE3MzA4Mzg4ODN9.JQwjbctYE3rkaiCrA2beWMA5vyACs3xeVmwGuOV1HH0'
     socket:
       bind: 0
 scenarios:

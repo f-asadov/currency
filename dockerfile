@@ -5,13 +5,10 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm install
-
 COPY . .
-# RUN npm run typeorm:generate
-# RUN npm run typeorm:run
-RUN npm run build
+ 
 
 EXPOSE 3000
+CMD ["sh", "-c", "npm i && npm run build && sleep 5 && npm run start"]
 
-CMD ["npm", "run", "start"]
+

@@ -17,7 +17,7 @@ export const dbConfig: MysqlConnectionOptions = {
     entities: [Currency, User],
     migrations: ['dist/src/migrations/*.js'],
     synchronize: false,
-
+    migrationsRun:true
 
 };
 
